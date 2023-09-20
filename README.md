@@ -11,7 +11,7 @@ Structure of the script:
    The intensity of the points depends on the structure factor of the atoms.The resulting 2D image is a sum of the Gaussians at positions of reciprocal space rods.
 5. The 2D RLRP image is transformed using set of equations:
    $$ x = {k_0 x_0} \over {\sqrt{d^2+{x_d}^2+{y_d}^2} $$
-   $$y = k_0(-{d} \over {\sqrt{d^2+{x_d}^2+{y_d}^2}+cosθ) $$
-      $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
+   $$ y = k_0(-{d} \over {\sqrt{d^2+{x_d}^2+{y_d}^2}+cosθ) $$
+
    where x and y are coordinates of the reciprocal space of the sample surface, k0 is the wave vector of the electrons, xd and yd are the coordinates of the RHEED image on the fluorescent screen
 7. The simulated RHEED pattern image is displayed and saved using azimuth angle as a filename.
