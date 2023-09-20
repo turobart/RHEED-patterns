@@ -11,7 +11,7 @@ Structure of the script:
    The intensity of the points depends on the structure factor of the atoms.The resulting 2D image is a sum of the Gaussians at positions of reciprocal space rods.
 5. The 2D RLRP image is transformed using set of equations:
    ```math
-   x = {{k_0 x_d } \over {\sqrt{d^2+{x_d}^2+{y_d}^2}}}
+   x = {{k_0 x_d } \over {\sqrt{d^2+{x_d}^2+{y_d}^2}}}\\
    y = {k_0(-{d} \over {\sqrt{d^2+{x_d}^2+{y_d}^2}+cosθ)}}
    
    ```
