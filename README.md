@@ -1,4 +1,4 @@
-\over {\sqrt{d^2+{x_d}^2+{y_d}^2}# RHEED-patterns
+# RHEED-patterns
 This script uses geometrical transformation proposed by C. Liu et al.,[2022](https://doi.org/10.1116/6.0001899) adapted to the Python language.
 The code can be used to generate images of RHEED patterns at any azimuth angle using the user-defined latice constant of the material, the azimuthal rotation of the sample, the distance between the sample and the RHEED screen (d), the angle of incidence of the electron beam (θ) and the accelerating voltage of the electron beam source.
 ---
